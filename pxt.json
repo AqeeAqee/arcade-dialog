@@ -1,0 +1,17 @@
+{
+    "name": "arcade-dialog",
+    "version": "0.0.0",
+    "files": [
+        "dialog.ts"
+    ],
+    "testFiles": [
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "dependencies": {
+        "device": "*"
+    },
+    "testDependencies": {}
+}
