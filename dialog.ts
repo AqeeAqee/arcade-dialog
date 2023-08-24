@@ -36,8 +36,8 @@ namespace game {
             this.image.fillRect(
                 this.innerLeft + Math.min(this.unit, MAX_FRAME_UNIT),
                 this.innerTop + Math.min(this.unit, MAX_FRAME_UNIT),
-                this.textAreaWidth(),
-                this.textAreaHeight(),
+                this.textAreaWidth()+2, //see textAreaWidth() in pxt_modules\game\textDialogs.ts for the reason of "+2"
+                this.textAreaHeight()+1,//ditto
                 this.frame.getPixel(this.frame.width >> 1, this.frame.height >> 1)
             )
         }
