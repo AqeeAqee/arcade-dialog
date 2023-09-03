@@ -1,7 +1,7 @@
 
 //ref pxt_modules\game\textDialogs.ts
 namespace game {
-    const MAX_FRAME_UNIT = 12;
+    const MAX_FRAME_UNIT = 12;//copy
 
     //show Image with scrolling
     export class ImageDialog extends BaseDialog {
